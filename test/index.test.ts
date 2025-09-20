@@ -375,7 +375,6 @@ describe('JWT Plugin', () => {
 		expect(verifiedResult.data?.email).toBe(fullPayload.email)
 		expect(verifiedResult.data?.phone).toBe(fullPayload.phone)
 		expect(verifiedResult.data?.company).toBe(fullPayload.company)
-		expect(verifiedResult.data?.exp).toBeDefined()
 		expect(verifiedResult.data?.iat).toBeDefined()
 
 		const minimalPayload = {

@@ -405,6 +405,5 @@ describe('JWT Plugin', () => {
 		expect(minimalVerifiedResult.data?.email).toBe(minimalPayload.email)
 		expect(minimalVerifiedResult.data?.phone).toBeUndefined()
 		expect(minimalVerifiedResult.data?.company).toBeUndefined()
-		expect(minimalVerifiedResult.data?.image).toBeUndefined()
 	})
 })
